@@ -10,6 +10,9 @@
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/bayesian-statistics.html</loc>
   </url>
   <url>
@@ -20,6 +23,9 @@
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/hierarchical-models.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/index.html</loc>
@@ -34,6 +40,9 @@
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/bayesian-statistics.html</loc>
   </url>
   <url>
@@ -46,7 +55,16 @@
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/hierarchical-models.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/mcmc.html</loc>
@@ -65,6 +83,12 @@
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor/stan.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/mcmc.html</loc>
