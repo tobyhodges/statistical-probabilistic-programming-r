@@ -540,10 +540,6 @@ Error in eval(call, envir = parent.frame()): object 'AER' not found
 data("DoctorVisits", package = "AER")
 ```
 
-``` error
-Error in find.package(package, lib.loc, verbose = verbose): there is no package called 'AER'
-```
-
 a)
 
 Use `brms` to fit an zero-inflated poisson model to the data while using gender, age, health and income as explanatory variables. Use weakly informative prior for the population-level coefficients. Comment the fit summary. Also plot the conditional effects.
