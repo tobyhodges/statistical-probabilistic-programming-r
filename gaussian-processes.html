@@ -347,7 +347,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Gaussian processes</h1>
-        <p>Last updated on 2025-11-11 |
+        <p>Last updated on 2026-01-20 |
 
         <a href="https://github.com/carpentries-incubator/statistical-probabilistic-programming-r/edit/main/episodes/gaussian-processes.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -595,8 +595,8 @@ standard deviation to <span class="math inline">\(\sigma =
 <pre class="output" tabindex="0"><code>
 SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
 Chain 1:
-Chain 1: Gradient evaluation took 8.5e-05 seconds
-Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.85 seconds.
+Chain 1: Gradient evaluation took 8.6e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.86 seconds.
 Chain 1: Adjust your expectations accordingly!
 Chain 1:
 Chain 1:
@@ -613,9 +613,9 @@ Chain 1: Iteration: 800 / 1000 [ 80%]  (Sampling)
 Chain 1: Iteration: 900 / 1000 [ 90%]  (Sampling)
 Chain 1: Iteration: 1000 / 1000 [100%]  (Sampling)
 Chain 1:
-Chain 1:  Elapsed Time: 32.131 seconds (Warm-up)
-Chain 1:                36.418 seconds (Sampling)
-Chain 1:                68.549 seconds (Total)
+Chain 1:  Elapsed Time: 32.011 seconds (Warm-up)
+Chain 1:                36.258 seconds (Sampling)
+Chain 1:                68.269 seconds (Total)
 Chain 1: </code></pre>
 </div>
 <div class="codewrapper">
@@ -701,7 +701,7 @@ posterior look like at the extremes?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Uncertainty grows at locations away from the data points and starts
 to resemble the prior. At the data locations, the uncertainty is
@@ -837,7 +837,7 @@ one recovered without the Cholesky parameterization?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb16">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1024,7 +1024,7 @@ prediction range.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>Let’s modify the program by setting the GP mean to a negative value
 and treating the length scale as a parameter.</p>
@@ -1103,8 +1103,8 @@ and treating the length scale as a parameter.</p>
 <pre class="output" tabindex="0"><code>
 SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
 Chain 1:
-Chain 1: Gradient evaluation took 0.001308 seconds
-Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 13.08 seconds.
+Chain 1: Gradient evaluation took 0.00131 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 13.1 seconds.
 Chain 1: Adjust your expectations accordingly!
 Chain 1:
 Chain 1:
@@ -1121,9 +1121,9 @@ Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
 Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
 Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
 Chain 1:
-Chain 1:  Elapsed Time: 17.521 seconds (Warm-up)
-Chain 1:                17.497 seconds (Sampling)
-Chain 1:                35.018 seconds (Total)
+Chain 1:  Elapsed Time: 17.562 seconds (Warm-up)
+Chain 1:                17.714 seconds (Sampling)
+Chain 1:                35.276 seconds (Total)
 Chain 1: </code></pre>
 </div>
 <div class="codewrapper sourceCode" id="cb25">
@@ -1218,7 +1218,7 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.17.3" class="external-link">sandpaper (0.17.3)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.9" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.9" class="external-link">varnish (1.0.9)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.18.3" class="external-link">sandpaper (0.18.3)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.9" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.9" class="external-link">varnish (1.0.9)</a></p>
 		</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -1240,8 +1240,8 @@ any links that you are not going to use.
   "url": "https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/gaussian-processes.html",
   "identifier": "https://carpentries-incubator.github.io/statistical-probabilistic-programming-r/gaussian-processes.html",
   "dateCreated": "2025-08-22",
-  "dateModified": "2025-11-11",
-  "datePublished": "2026-01-06"
+  "dateModified": "2026-01-20",
+  "datePublished": "2026-01-20"
 }
 
   </script><script>
